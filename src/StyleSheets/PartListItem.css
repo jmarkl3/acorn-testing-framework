@@ -1,0 +1,14 @@
+.partListItem{
+    height: 30px;
+    width:100%;
+    font-size: 14px;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 14px;
+}
+.partListItem:hover{
+    background-color: rgba(94, 94, 94, 0.466);
+}

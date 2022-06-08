@@ -1,38 +1,104 @@
 .App {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
+  background-color: rgb(64, 64, 66);
   min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.topBar{
+  height: 130px;
+  width: 100%;    
+  position: relative;
+}
+.topBarLine{
+  background-color: #2e8786;
+  height: 2px;
+  width: 100%;
+}
+.topBarDivider{
+  height: 50px;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.125), rgba(0, 0, 0, 0),rgba(0, 0, 0, 0.315));  
+  background-color: #5b5b5d;
+  position: absolute;
+  bottom: 0;
+  box-shadow: rgb(39, 39, 39) 0 4px 6px;
+}
+.sideMenu{
+  height: 600px;
+  width: 180px;
+  position: absolute;
+  left: 20px;
+  top: 140px;
+  background-color: #414042;
+  z-index: 2;
+  border: #2e8786 solid 1px;
+  box-shadow: 0 4px 12px black;
+}
+.partsList{
+  height: 400px;
+  width: 160px;
+  margin-left: 10px;
+  margin-top: 10px;
+  background-color: rgb(61, 61, 61);
+}
+.partsListTitle{
   color: white;
+  height: 30px;
+  line-height: 30px;
 }
-
-.App-link {
-  color: #61dafb;
+.buttonBox button{  
+  display: inline-block;
+  width: 160px;
+  background-color: rgb(61, 61, 61);
+  color: white;
+  border: none;
+  height: 30px;
+  margin-top: 10px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.buttonBox button:hover{
+  background-color: rgba(94, 94, 94, 0.466);
+}
+.canvasPlaceHolder{
+  height: 500px;
+  width: 800px;
+  margin-left: 240px;
+  margin-top: 40px;
+  background-color: #3f3f41;
+  box-shadow: 0 4px 12px black;
+  position: absolute;  
+}
+.displaySection{
+  height: calc(100vh - 130px);
+  background-image: linear-gradient(rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.527));
+}
+.logoContainer{
+  position: absolute;
+  height: 50px;
+  width: 200px;
+  top: 10px;
+  left: 10px;  
+  z-index: 1;
+  text-align: left;
+}
+.logoContainer div{
+  display: inline-block;
+}
+.logoCircle{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  background-color: #2e8786;
+  float: left;  
+}
+.mainTitle{
+  color: white;
+  font-size: 28px;  
+  margin-top: 0;
+  line-height: 20px;
+  margin-left: 10px;
+}
+.secondaryTitle{
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
 }
