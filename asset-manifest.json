@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/acorn-testing-framework/static/css/main.09a58fca.css",
+    "main.js": "/acorn-testing-framework/static/js/main.80592dd5.js",
+    "static/js/787.8680ff0f.chunk.js": "/acorn-testing-framework/static/js/787.8680ff0f.chunk.js",
+    "static/media/logo.svg": "/acorn-testing-framework/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/acorn-testing-framework/index.html",
+    "main.09a58fca.css.map": "/acorn-testing-framework/static/css/main.09a58fca.css.map",
+    "main.80592dd5.js.map": "/acorn-testing-framework/static/js/main.80592dd5.js.map",
+    "787.8680ff0f.chunk.js.map": "/acorn-testing-framework/static/js/787.8680ff0f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.09a58fca.css",
+    "static/js/main.80592dd5.js"
+  ]
+}
